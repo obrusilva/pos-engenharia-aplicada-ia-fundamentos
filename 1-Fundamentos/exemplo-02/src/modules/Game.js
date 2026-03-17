@@ -1,10 +1,10 @@
 import { Application, Assets } from 'pixi.js';
-import { remove as _remove } from 'lodash/array';
+import { remove as _remove } from 'lodash/array.js';
 import levels from '../data/levels.json';
-import Stage from './Stage';
-import sound from './Sound';
+import Stage from './Stage.js';
+import sound from './Sound.js';
 import levelCreator from '../libs/levelCreator.js';
-import utils from '../libs/utils';
+import utils from '../libs/utils.js';
 
 const BLUE_SKY_COLOR = 0x64b0ff;
 const PINK_SKY_COLOR = 0xfbb4d4;
